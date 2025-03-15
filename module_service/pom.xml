@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ensas</groupId>
-	<artifactId>program-service</artifactId>
+	<artifactId>module_service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>program-service</name>
+	<name>module_service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -66,10 +66,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>jakarta.validation</groupId>
-			<artifactId>jakarta.validation-api</artifactId>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
